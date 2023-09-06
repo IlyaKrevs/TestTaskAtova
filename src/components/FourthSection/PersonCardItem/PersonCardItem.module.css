@@ -1,0 +1,95 @@
+.personCardItem {
+    width: 297px;
+    height: 328px;
+    flex-shrink: 0;
+
+    padding: 10px 40px 30px 45px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 10px;
+    border: 1px solid #FF555A;
+    background: #FFF;
+    box-shadow: 0px 8px 16px 5px rgba(114, 114, 114, 0.25);
+
+    transition: .4s;
+}
+
+.pictureContainer {
+    width: 109px;
+    height: 109px;
+    overflow: hidden;
+
+    border-radius: 50%;
+
+}
+
+
+.textContainer {
+    text-align: center;
+}
+
+.titleText {
+    padding-top: 12px;
+
+    color: #FF555A;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.professionText {
+    padding-top: 6px;
+
+    color: #666;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.descriptionText {
+    padding-top: 8px;
+    padding-bottom: 40px;
+
+    color: #000;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.socialLinksContainer {
+    fill: #FF555A;
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.personCardItem:hover {
+    background: #FF555A;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.25);
+
+    .titleText {
+        color: #172D42;
+    }
+
+    .professionText {
+        color: #172D42;
+    }
+
+    .descriptionText {
+        color: #FFF;
+    }
+
+    .socialLinksContainer {
+        fill: #FFF;
+    }
+}

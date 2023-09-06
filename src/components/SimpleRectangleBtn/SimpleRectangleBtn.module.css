@@ -1,0 +1,47 @@
+.simpleRectangleBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 4px;
+
+    cursor: pointer;
+}
+
+.btnText {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.basicColour {
+    background: #FF555A;
+    color: #fff;
+}
+
+.emptyColour {
+    border: 1px solid #FF555A;
+    color: #172D42;
+}
+
+.menuSize {
+    width: 104px;
+    height: 37px;
+
+    font-size: 16px;
+}
+
+.formSize {
+    width: 100%;
+    height: 60px;
+
+    font-size: 30px;
+}
+
+.specialSize {
+    width: 121px;
+    height: 32px;
+
+    font-size: 14px;
+}

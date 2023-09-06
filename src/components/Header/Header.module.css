@@ -1,0 +1,52 @@
+.header {
+    height: 122px;
+    background-color: #fff;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 75px;
+}
+
+.logoContainer {
+    align-self: baseline;
+}
+
+.navContainer {
+    display: flex;
+    gap: 60px;
+}
+
+.navItem {
+    display: flex;
+    gap: 5px;
+
+    color: #696968;
+}
+
+.navText {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.navItem:first-child {
+    color: #E9252B;
+}
+
+.navItem:first-child::after {
+    content: '';
+    height: 10px;
+    width: 10px;
+    border-left: 2px solid #E9252B;
+    border-bottom: 2px solid #E9252B;
+    transform: rotate(-45deg);
+    margin-top: 6px;
+}
+
+.btnContainer {
+    display: flex;
+    gap: 12px;
+}

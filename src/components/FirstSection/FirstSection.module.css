@@ -1,0 +1,113 @@
+.firstSection {
+    position: relative;
+
+    height: 581px;
+    background:
+        linear-gradient(rgba(0, 41, 89, 0.7), rgba(0, 41, 89, 0.7)),
+        url('../../pictures/firstSectionPic.svg');
+    background-position: bottom;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 55px;
+}
+
+.textContainer {
+    padding-left: 60px;
+}
+
+.titleContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.firstTitle {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.secondTitle {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    /* 137.5% */
+    letter-spacing: 0.8px;
+}
+
+
+.searchContainer {
+    height: 64px;
+    width: fit-content;
+
+    display: flex;
+
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.simpleInput {
+    width: 224px;
+
+    color: #FF555A;
+
+    padding-left: 25px;
+
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    border-right: 2px solid #EDEDED;
+}
+
+.simpleInput::placeholder {
+    color: #FF555A;
+}
+
+.searchBtn {
+    width: 156px;
+    background: #FF555A;
+
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.bottomContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.bottomNoticeContainer {
+    position: absolute;
+    top: calc(100% - 68px);
+    z-index: 2;
+
+    width: 1079px;
+    height: 136px;
+
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.25);
+
+    padding: 22px;
+
+    display: flex;
+    gap: 26px;
+}

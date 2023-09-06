@@ -1,0 +1,30 @@
+.secondSection {}
+
+.mainTitle {
+    height: 177px;
+    background-color: #fff;
+    padding: 0 125px 22px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: flex-end;
+}
+
+.titleText {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+
+.descriptionContainer {
+    height: 681px;
+    background: #172D42;
+
+    padding: 78px 70px 34px;
+}

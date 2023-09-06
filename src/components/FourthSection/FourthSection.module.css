@@ -1,0 +1,41 @@
+.fourthSection {
+    height: 513px;
+
+    padding: 55px 80px 40px;
+
+
+    background: #172D42;
+}
+
+.titleContainer {
+    position: relative;
+
+
+    display: flex;
+    justify-content: center;
+
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.titleContainer::after {
+    position: absolute;
+    content: '';
+    width: 36px;
+    height: 3px;
+
+    border-radius: 2px;
+    background: #C9C9C9;
+
+    top: 100%;
+}
+
+.personCardContainer {
+    padding-top: 52px;
+
+    display: flex;
+    justify-content: space-between;
+}
