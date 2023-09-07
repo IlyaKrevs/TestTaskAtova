@@ -1,0 +1,53 @@
+.fivethSection {
+    padding: 20px 90px 70px;
+
+    background-color: #fff;
+}
+
+.titleContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titleText {
+    position: relative;
+
+    color: #172D42;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.titleText::before {
+    width: 116px;
+    height: 7px;
+
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 65%;
+    content: '';
+
+    border-radius: 2px;
+    background: #C9C9C9;
+}
+
+.titleText::after {
+    width: 116px;
+    height: 7px;
+
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 10%;
+    content: '';
+
+    border-radius: 2px;
+    background: #C9C9C9;
+}
+
+.studentsContainer {
+    padding-top: 86px;
+
+    display: flex;
+}

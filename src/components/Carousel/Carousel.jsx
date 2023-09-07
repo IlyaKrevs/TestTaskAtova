@@ -34,9 +34,10 @@ export default function Carousel({ children, arrowType, gap = 20 }) {
         lentaClientWidth = lentaRef.current.clientWidth;
         lentaScrollWidth = lentaRef.current.scrollWidth;
 
-        oneClickMovingLength = lentaClientWidth + basicGap;
+        oneClickMovingLength = lentaClientWidth + +basicGap;
         maxMoveLength = lentaScrollWidth - lentaClientWidth;
-    }, [lentaRef])
+
+    },)
 
 
 
@@ -74,7 +75,7 @@ export default function Carousel({ children, arrowType, gap = 20 }) {
                     ref={lentaRef}
                     style={{
                         transform: `translateX(${translateXState}px)`,
-                        gap: gap,
+                        gap: gap + 'px',
                     }}
                 >
 

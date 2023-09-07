@@ -99,26 +99,3 @@ h6 {
   height: 5000px;
 }
 
-.fivethSection {
-  height: 496px;
-
-  padding: 20px 90px 70px;
-
-  background-color: #fff;
-}
-
-.titleContainer {
-  display: flex;
-  justify-content: space-between;
-}
-
-.titleText {
-  position: relative;
-
-  color: #172D42;
-  font-family: Roboto;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}

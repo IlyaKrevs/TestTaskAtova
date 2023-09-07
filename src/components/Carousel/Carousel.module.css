@@ -1,5 +1,7 @@
 .carouselContainer {
     position: relative;
+    width: 100%;
+
 }
 
 .arrowContainer {
@@ -53,9 +55,13 @@
 
 .carouselViewPort {
     overflow: hidden;
+
 }
 
 .carouselLenta {
+
     display: flex;
     transition: .5s;
+
+
 }
